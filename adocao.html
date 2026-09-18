@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quero Adotar</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Quero Adotar</h1>
+        <p>Preencha o formulário de interesse em adoção.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a> |
+        <a href="animais.html">Animais para Adoção</a> |
+        <a href="adocao.html">Quero Adotar</a> |
+        <a href="index.html#sobre">Sobre o Projeto</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Formulário de interesse</h2>
+
+            <form>
+
+                <div>
+                    <label for="nome">Nome completo:</label>
+                    <br>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <br>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="animal">Qual animal você deseja adotar?</label>
+                    <br>
+
+                    <select id="animal" name="animal">
+                        <option value="thor">Thor</option>
+                        <option value="luna">Luna</option>
+                        <option value="mel">Mel</option>
+                        <option value="simba">Simba</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <p>Você já teve animais?</p>
+
+                    <input type="radio" id="sim" name="teve_animais" value="sim">
+                    <label for="sim">Sim</label>
+
+                    <input type="radio" id="nao" name="teve_animais" value="nao">
+                    <label for="nao">Não</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="motivo">Por que você deseja adotar?</label>
+                    <br>
+
+                    <textarea id="motivo"
+                              name="motivo"
+                              rows="5"
+                              cols="40"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="responsabilidade" name="responsabilidade">
+
+                    <label for="responsabilidade">
+                        Estou ciente de que adotar um animal é uma responsabilidade.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit">Enviar formulário</button>
+
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Orientações para adoção</h2>
+
+            <article>
+                <h3>Responsabilidade</h3>
+
+                <p>
+                    O animal precisa de alimentação, higiene, cuidados
+                    veterinários, espaço adequado e atenção.
+                </p>
+            </article>
+
+            <article>
+                <h3>Preparação</h3>
+
+                <p>
+                    Antes de receber um animal, prepare o ambiente e verifique
+                    se todos os moradores da casa estão de acordo com a adoção.
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+
+            <p>
+                E-mail: projetoadocao@email.com
+            </p>
+
+            <p>
+                Telefone: (83) 99999-9999
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto de Adoção e Proteção Animal</p>
+    </footer>
+
+</body>
+
+</html>
