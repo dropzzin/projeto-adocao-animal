@@ -1,0 +1,40 @@
+
+        h1 {
+                color: #315C46;
+                text-align: center;
+                font-size: 32px;
+            }
+h2 {
+        color: #315C46;
+    }
+
+        body {
+                background-color: #FAF7F0;
+                color: #222222;
+                font-family: Arial, sans-serif;
+            }
+        section {
+                    background-color: white;
+                    border: 1px solid #315C46;
+                    padding: 14px;
+                    margin: 10px;
+}
+
+.destaque {
+    background-color: #FFFFFF;
+    border: 2px solid #315C46;
+}
+
+nav {
+background-color: #FFFFFF;
+padding: 12px;
+}
+nav a {
+color: #315C46;
+text-decoration: none;
+margin-right: 12px;
+}
+
+nav a:hover {
+color: yellow;
+}
