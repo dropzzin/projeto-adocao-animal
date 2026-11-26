@@ -1,40 +1,67 @@
+:root {
+  --bg: #FAF7F0;
+  --text: #222222;
+  --card: #FFFFFF;
+  --border: #315C46;
+  --title: #315C46;
+  --nav-bg: #FFFFFF;
+  --link: #315C46;
+  --link-hover: yellow;
+}
 
-        h1 {
-                color: #315C46;
-                text-align: center;
-                font-size: 32px;
-            }
+html.dark {
+  --bg: #121212;
+  --text: #e0e0e0;
+  --card: #1e1e1e;
+  --border: #4a7c62;
+  --title: #7dba9a;
+  --nav-bg: #1e1e1e;
+  --link: #7dba9a;
+  --link-hover: #f0e68c;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  color: var(--title);
+  text-align: center;
+  font-size: 32px;
+}
+
 h2 {
-        color: #315C46;
-    }
+  color: var(--title);
+}
 
-        body {
-                background-color: #FAF7F0;
-                color: #222222;
-                font-family: Arial, sans-serif;
-            }
-        section {
-                    background-color: white;
-                    border: 1px solid #315C46;
-                    padding: 14px;
-                    margin: 10px;
+section {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  padding: 14px;
+  margin: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .destaque {
-    background-color: #FFFFFF;
-    border: 2px solid #315C46;
+  background-color: var(--card);
+  border: 2px solid var(--border);
 }
 
 nav {
-background-color: #FFFFFF;
-padding: 12px;
+  background-color: var(--nav-bg);
+  padding: 12px;
+  transition: background-color 0.3s ease;
 }
+
 nav a {
-color: #315C46;
-text-decoration: none;
-margin-right: 12px;
+  color: var(--link);
+  text-decoration: none;
+  margin-right: 12px;
 }
 
 nav a:hover {
-color: yellow;
+  color: var(--link-hover);
 }
